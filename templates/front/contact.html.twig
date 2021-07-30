@@ -1,0 +1,69 @@
+{% extends 'base.html.twig' %}
+{% block metadescription %}
+{% trans %}
+description page contact en anglais /
+    à traduire dans translations/messages+intl-icu.fr.xlf
+{% endtrans %}
+{% endblock %}
+{% block title %}Contact{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class"email mt-5">
+        <div class="d-flex justify-content-end">
+            <div class="mailjade1"><img class="align-items-end" src="{{ asset('build/mailer.png')}}" alt="iconmail" id="mailer" /></div>
+            <p class="mailjade2 px-1"><a href="mailto:jade@echard-design.com" class="text-reset text-decoration-none">jade@echard-design.com</a></p>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center row mt-5">
+        {{ form_start(form) }}
+        <div class="row g-2">
+            <div class="col-md mx-3 my-3">
+                <div class="form-floating">
+                    {% set firstnameplaceholder = 'firstname'|trans %}
+                    <div class="text-end">{{ form_errors(form.firstname) }}</div>
+                    <div class="col-md-12 col-11 m-0">{{ form_widget(form.firstname, {'attr': {'placeholder': firstnameplaceholder }}) }}</div>
+                </div>
+            </div>
+            <div class="col-md mx-3 my-3">
+                <div class="form-floating">
+                    {% set lastnameplaceholder = 'lastname'|trans %}
+                    <div class="text-end">{{ form_errors(form.lastname) }}</div>
+                    <div class="col-md-12 col-11 m-0">{{ form_widget(form.lastname, {'attr': {'placeholder': lastnameplaceholder}}) }}</div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-2">
+            <div class="col-md mx-3 my-3">
+                <div class="form-floating">
+                    <div class="text-end">{{ form_errors(form.email) }}</div>
+                    <div class="col-md-12 col-11 m-0">{{ form_widget(form.email, {'attr': {'placeholder': 'email'}}) }}
+                    </div>
+                </div>
+            </div>
+            <div class="col-md mx-3 my-3">
+                <div class="form-floating">
+                    {% set subjectplaceholder = 'subject'|trans %}
+                    <div class="text-end">{{ form_errors(form.subject) }}</div>
+                    <div class="col-md-12 col-11 m-0">{{ form_widget(form.subject, {'attr': {'placeholder': subjectplaceholder}}) }}</div>
+                </div>
+            </div>
+        </div>
+        <div class="form-floating mx-3 my-3">
+            {% set messageplaceholder = 'message'%}
+            <div class="text-end">{{ form_errors(form.message) }}</div>
+            <div class="col-auto ">{{ form_widget(form.message, {'attr': {'placeholder': messageplaceholder}}) }}</div>
+            <div class=" d-flex justify-content-center mt-3">
+                <div class="g-recaptcha" data-sitekey="6LdHtmQbAAAAAM1BWgBpFJBaVmdqF-2cXCTNP-aH"></div>
+                <br />
+            </div>
+            <div class="d-flex justify-content-center mt-3">
+                <input class="btn btn-outline" type="submit" value="CONTACT" id="contact-btn"
+                    style="border-radius: 0; border-color: #0000FF;">
+            </div>
+        </div>
+    </div>
+    {{ form_end(form) }}
+</div>
+</div>
+{% endblock %}

@@ -1,0 +1,6 @@
+User-agent:*
+Disallow:/tests/
+Disallow:/templates/security/*
+
+Sitemap: http://www.jade-echard.com/sitemap.xml
+Sitemap: https://jade-echard.com/sitemap.xml

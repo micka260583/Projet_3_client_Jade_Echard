@@ -1,0 +1,61 @@
+{% extends 'base.html.twig' %}
+
+{% block metadescription %}
+{% trans %}
+description page news en anglais /
+    à traduire dans translations/messages+intl-icu.fr.xlf
+{% endtrans %}
+{% endblock %}
+{% block title %}News{% endblock %}
+
+{% block body %}
+    <div class="small-screen">
+        <ul class="nav nav-news">
+            {% if newsCategories is defined %}
+				<li class="nav-item">
+					<a class="nav-under nav" aria-current="page" href="/news">
+						{% if app.request.requestUri == '/news' %}
+							<p style="font-weight: bold; color: #000000;">• tous</p>
+						{% else %}
+							<p>tous</p>
+						{% endif %}
+					</a>
+				</li>
+				{% for newsCategory in newsCategories %}
+				    <li class="nav-item">
+						<a class="nav-under nav" aria-current="page" href="{{ path('news_by_cat', {newsCategorySlug: newsCategory.slug}) }}">
+							{% if app.request.requestUri == '/news/' ~ newsCategory.slug %}
+								<p style="font-weight: bold; color: #000000;">• {{ newsCategory.nameFr }}</p>
+							{% else %}
+								<p>{{ newsCategory.nameFr }}</p>
+							{% endif %}
+						</a>
+					</li>
+				{% endfor %}
+			{% endif %}
+        </ul>
+    </div>
+    <div class="container">
+        <div class="row row-col-4">
+            {% for newsArticle in news %}
+                <div class="col-lg-4 d-flex justify-content-center">
+                    <div class="card m-5" style="max-width: 18rem; border: none;">
+                        <a href="{{ newsArticle.Link }}" target="blank">
+                            <img src="{{ asset('images/' ~ newsArticle.illustration.imageLink) }}" class="card-img-top" alt="article illustration {{ newsArticle.titleFr }}">
+                        </a>
+                        <div class="card-body">
+                            {% if app.request.locale == 'fr' %}
+                            <p>{{ newsArticle.titleFr }}</p>
+                            <p>{{ newsArticle.descriptionFr }}</p>
+                            {% else %}
+                            <p>{{ newsArticle.titleEn }}</p>
+                            <p>{{ newsArticle.descriptionEn}}</p>
+                            {% endif %}
+                            <p>{{ newsArticle.playOn }}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

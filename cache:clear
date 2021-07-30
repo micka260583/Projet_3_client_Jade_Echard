@@ -1,0 +1,969 @@
+Script started on 2021-07-13 09:33:40+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="153" LINES="18"]
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004h[7mscript assets:install public[27m[28D[27ms[27mc[27mr[27mi[27mp[27mt[27m [27ma[27ms[27ms[27me[27mt[27ms[27m:[27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mp[27mu[27mb[27ml[27mi[27mc[?1l>[?2004l
+
+]2;script assets:install public]1;scriptLe script a débuté, le fichier est assets:install
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004h[7mcomposer recipes[27m[16D[27mc[27mo[27mm[27mp[27mo[27ms[27me[27mr[27m [27mr[27me[27mc[27mi[27mp[27me[27ms[?1l>[?2004l
+
+]2;composer recipes]1;composer
+[37;44m                      [39;49m
+[37;44m Available recipes.   [39;49m
+[37;44m                      [39;49m
+
+ * beelab/recaptcha2-bundle 
+ * doctrine/annotations 
+ * doctrine/doctrine-bundle [33m(update available)[39m
+ * doctrine/doctrine-fixtures-bundle 
+ * doctrine/doctrine-migrations-bundle 
+ * easycorp/easyadmin-bundle 
+ * google/recaptcha 
+ * sensio/framework-extra-bundle 
+ * squizlabs/php_codesniffer 
+ * symfony/console 
+ * symfony/debug-bundle 
+ * symfony/flex 
+ * symfony/framework-bundle [33m(update available)[39m
+ * symfony/google-mailer 
+ * symfony/mailer 
+ * symfony/maker-bundle 
+ * symfony/monolog-bundle [33m(update available)[39m
+ * symfony/notifier 
+ * symfony/phpunit-bridge [33m(update available)[39m
+ * symfony/routing [33m(update available)[39m
+ * symfony/security-bundle 
+ * symfony/translation 
+ * symfony/twig-bundle [33m(update available)[39m
+ * symfony/validator [33m(update available)[39m
+ * symfony/web-profiler-bundle 
+ * symfony/webpack-encore-bundle [33m(update available)[39m
+ * twig/extra-bundle 
+ * vich/uploader-bundle 
+
+Run:
+ * [32mcomposer recipes vendor/package[39m to see details about a recipe.
+ * [32mcomposer recipes:install vendor/package --force -v[39m to update that recipe.
+
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004h[7mcomposer recipes:install vendor/package --force -v[27m[50D[27mc[27mo[27mm[27mp[27mo[27ms[27me[27mr[27m [27mr[27me[27mc[27mi[27mp[27me[27ms[27m:[27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mv[27me[27mn[27md[27mo[27mr[27m/[27mp[27ma[27mc[27mk[27ma[27mg[27me[27m [27m-[27m-[27mf[27mo[27mr[27mc[27me[27m [27m-[27mv[?1l>[?2004l
+
+]2;composer recipes:install vendor/package --force -v]1;composer[30;43mCannot update: some packages are not installed:[39;49m vendor/package
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;31m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004h[7mbin/console cache:pool:clear[27m[28D[27mb[27mi[27mn[27m/[27mc[27mo[27mn[27ms[27mo[27ml[27me[27m [27mc[27ma[27mc[27mh[27me[27m:[27mp[27mo[27mo[27ml[27m:[27mc[27ml[27me[27ma[27mr[?1l>[?2004l
+
+]2;bin/console cache:pool:clear]1;bin/console
+[37;41m                                            [39;49m
+[37;41m  Not enough arguments (missing: "pools").  [39;49m
+[37;41m                                            [39;49m
+
+[32mcache:pool:clear <pools>...[39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;31m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004h[7mbin/console cache:pool:clear [pool][27m[35D[27mb[27mi[27mn[27m/[27mc[27mo[27mn[27ms[27mo[27ml[27me[27m [27mc[27ma[27mc[27mh[27me[27m:[27mp[27mo[27mo[27ml[27m:[27mc[27ml[27me[27ma[27mr[27m [27m[[27mp[27mo[27mo[27ml[27m][?1l>[?2004l
+
+]2;bin/console cache:pool:clear [pool]]1;bin/consolezsh: no matches found: [pool]
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;31m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004h[7mcomposer require symfony/polyfill-intl-messageformatter[27m[55D[27mc[27mo[27mm[27mp[27mo[27ms[27me[27mr[27m [27mr[27me[27mq[27mu[27mi[27mr[27me[27m [27ms[27my[27mm[27mf[27mo[27mn[27my[27m/[27mp[27mo[27ml[27my[27mf[27mi[27ml[27ml[27m-[27mi[27mn[27mt[27ml[27m-[27mm[27me[27ms[27ms[27ma[27mg[27me[27mf[27mo[27mr[27mm[27ma[27mt[27mt[27me[27mr[?1l>[?2004l
+
+]2;composer require symfony/polyfill-intl-messageformatter]1;composerUsing version [32m^1.23[39m for [32msymfony/polyfill-intl-messageformatter[39m
+[32m./composer.json has been updated[39m
+[32mRunning composer update symfony/polyfill-intl-messageformatter[39m
+[32mLoading composer repositories with package information[39m
+[32mUpdating dependencies[39m
+[32mLock file operations: 1 install, 0 updates, 0 removals[39m
+  - Locking [32msymfony/polyfill-intl-messageformatter[39m ([33mv1.23.0[39m)
+[32mWriting lock file[39m
+[32mInstalling dependencies from lock file (including require-dev)[39m
+[32mPackage operations: 1 install, 0 updates, 0 removals[39m
+  - Installing [32msymfony/polyfill-intl-messageformatter[39m ([33mv1.23.0[39m): Extracting archive
+[32mGenerating optimized autoload files[39m
+[32mcomposer/package-versions-deprecated:[39m Generating version class...
+[32mcomposer/package-versions-deprecated:[39m ...done generating version class
+[32m102 packages you are using are looking for funding.[39m
+[32mUse the `composer fund` command to find out more![39m
+
+Run [33mcomposer recipes[39m at any time to see the status of your Symfony recipes.
+
+Executing script cache:clear [32m[OK][39m
+Executing script assets:install public [32m[OK][39m
+
+[32mNothing to unpack[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hggit status[?1l>[?2004l
+
+]2;git status]1;gitSur la branche sprint_final_slug
+Votre branche est à jour avec 'origin/sprint_final_slug'.
+
+Modifications qui ne seront pas validées :
+  (utilisez "git add <fichier>..." pour mettre à jour ce qui sera validé)
+  (utilisez "git restore <fichier>..." pour annuler les modifications dans le répertoire de travail)
+	[31mmodifié :         .env[m
+	[31mmodifié :         assets/styles/app.scss[m
+	[31mmodifié :         composer.json[m
+	[31mmodifié :         composer.lock[m
+	[31mmodifié :         src/Controller/Admin/AdminController.php[m
+	[31mmodifié :         src/Controller/Admin/ProjectCrudController.php[m
+	[31mmodifié :         symfony.lock[m
+	[31mmodifié :         templates/front/show_one_project.html.twig[m
+
+Fichiers non suivis:
+  (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
+	[31massets:install[m
+	[31mcache:clear[m
+
+aucune modification n'a été ajoutée à la validation (utilisez "git add" ou "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hggit add .[?1l>[?2004l
+
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hggit commit -m "mess    admin projects" -n[?1l>[?2004l
+
+]2;git commit -m "admin projects" -n]1;git[sprint_final_slug 357615f] admin projects
+ 10 files changed, 296 insertions(+), 66 deletions(-)
+ create mode 100644 assets:install
+ create mode 100644 cache:clear
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m)[00m [K[?1h=[?2004hggit push[?1l>[?2004l
+
+]2;git push]1;gitÉnumération des objets: 34, fait.
+Décompte des objets:   2% (1/34)
+Décompte des objets:   5% (2/34)
+Décompte des objets:   8% (3/34)
+Décompte des objets:  11% (4/34)
+Décompte des objets:  14% (5/34)
+Décompte des objets:  17% (6/34)
+Décompte des objets:  20% (7/34)
+Décompte des objets:  23% (8/34)
+Décompte des objets:  26% (9/34)
+Décompte des objets:  29% (10/34)
+Décompte des objets:  32% (11/34)
+Décompte des objets:  35% (12/34)
+Décompte des objets:  38% (13/34)
+Décompte des objets:  41% (14/34)
+Décompte des objets:  44% (15/34)
+Décompte des objets:  47% (16/34)
+Décompte des objets:  50% (17/34)
+Décompte des objets:  52% (18/34)
+Décompte des objets:  55% (19/34)
+Décompte des objets:  58% (20/34)
+Décompte des objets:  61% (21/34)
+Décompte des objets:  64% (22/34)
+Décompte des objets:  67% (23/34)
+Décompte des objets:  70% (24/34)
+Décompte des objets:  73% (25/34)
+Décompte des objets:  76% (26/34)
+Décompte des objets:  79% (27/34)
+Décompte des objets:  82% (28/34)
+Décompte des objets:  85% (29/34)
+Décompte des objets:  88% (30/34)
+Décompte des objets:  91% (31/34)
+Décompte des objets:  94% (32/34)
+Décompte des objets:  97% (33/34)
+Décompte des objets: 100% (34/34)
+Décompte des objets: 100% (34/34), fait.
+Compression par delta en utilisant jusqu'à 4 fils d'exécution
+Compression des objets:   5% (1/19)
+Compression des objets:  10% (2/19)
+Compression des objets:  15% (3/19)
+Compression des objets:  21% (4/19)
+Compression des objets:  26% (5/19)
+Compression des objets:  31% (6/19)
+Compression des objets:  36% (7/19)
+Compression des objets:  42% (8/19)
+Compression des objets:  47% (9/19)
+Compression des objets:  52% (10/19)
+Compression des objets:  57% (11/19)
+Compression des objets:  63% (12/19)
+Compression des objets:  68% (13/19)
+Compression des objets:  73% (14/19)
+Compression des objets:  78% (15/19)
+Compression des objets:  84% (16/19)
+Compression des objets:  89% (17/19)
+Compression des objets:  94% (18/19)
+Compression des objets: 100% (19/19)
+Compression des objets: 100% (19/19), fait.
+Écriture des objets:   5% (1/19)
+Écriture des objets:  10% (2/19)
+Écriture des objets:  15% (3/19)
+Écriture des objets:  21% (4/19)
+Écriture des objets:  26% (5/19)
+Écriture des objets:  31% (6/19)
+Écriture des objets:  42% (8/19)
+Écriture des objets:  47% (9/19)
+Écriture des objets:  52% (10/19)
+Écriture des objets:  57% (11/19)
+Écriture des objets:  63% (12/19)
+Écriture des objets:  68% (13/19)
+Écriture des objets:  73% (14/19)
+Écriture des objets:  78% (15/19)
+Écriture des objets:  84% (16/19)
+Écriture des objets:  89% (17/19)
+Écriture des objets:  94% (18/19)
+Écriture des objets: 100% (19/19)
+Écriture des objets: 100% (19/19), 5.25 Kio | 1.31 Mio/s, fait.
+Total 19 (delta 15), réutilisés 0 (delta 0)
+remote: Resolving deltas:   0% (0/15)[K
+remote: Resolving deltas:   6% (1/15)[K
+remote: Resolving deltas:  13% (2/15)[K
+remote: Resolving deltas:  20% (3/15)[K
+remote: Resolving deltas:  26% (4/15)[K
+remote: Resolving deltas:  33% (5/15)[K
+remote: Resolving deltas:  40% (6/15)[K
+remote: Resolving deltas:  46% (7/15)[K
+remote: Resolving deltas:  53% (8/15)[K
+remote: Resolving deltas:  60% (9/15)[K
+remote: Resolving deltas:  66% (10/15)[K
+remote: Resolving deltas:  73% (11/15)[K
+remote: Resolving deltas:  80% (12/15)[K
+remote: Resolving deltas:  86% (13/15)[K
+remote: Resolving deltas:  93% (14/15)[K
+remote: Resolving deltas: 100% (15/15)[K
+remote: Resolving deltas: 100% (15/15), completed with 14 local objects.[K
+To https://github.com/WildCodeSchool/remote-fr-March21-php-JEED.git
+   1afe52c..357615f  sprint_final_slug -> sprint_final_slug
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004h
+
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m ssymfony console d:make:migration[P[14C [15D[P[14C [15D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C                          s  ssymofny make:mig        console make:                fony consl ole make:migration[?1l>[?2004l
+
+]2;symfony console make:migration]1;symfony
+
+ [37;42m          [39;49m
+ [37;42m Success! [39;49m
+ [37;42m          [39;49m
+
+ Next: Review the new migration [32m"[39m[32mmigrations/Version20210713082328.php[39m[32m"[39m
+ Then: Run the migration with [32mphp bin/console doctrine:migrations:migrate[39m
+ See [33mhttps://symfony.com/doc/current/bundles/DoctrineMigrationsBundle/index.html[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hssymfony console d:m:m[?1l>[?2004l
+
+]2;symfony console d:m:m]1;symfony
+ [32mWARNING! You are about to execute a migration in database "jeed" that could result in schema changes and data loss. Are you sure you wish to continue? (yes/no)[39m [[33myes[39m]:
+ > y
+
+[32m[notice] Migrating [39m[33mup[39m[32m to [39m[33mDoctrineMigrations\Version20210713082328[39m
+[32m[notice] finished in [39m[33m480.8[39m[32mms, used [39m[33m24M[39m[32m memory, [39m[33m1[39m[32m migrations executed, [39m[33m5[39m[32m sql queries[39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hssymfony console df :f:l[?1l>[?2004l
+
+]2;symfony console d:f:l]1;symfony
+ [32mCareful, database "jeed" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+
+[33mIn AbstractMySQLDriver.php line 68:[39m
+[37;41m                                                                                                                                                        [39;49m
+[37;41m  An exception occurred while executing 'DELETE FROM galery_collection':                                                                                [39;49m
+[37;41m                                                                                                                                                        [39;49m
+[37;41m  SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`jeed`.`image`, CONSTRAI  [39;49m
+[37;41m  NT `FK_C53D045F514956FD` FOREIGN KEY (`collection_id`) REFERENCES `galery_collection` (`id`))                                                         [39;49m
+[37;41m                                                                                                                                                        [39;49m
+
+[33mIn Exception.php line 18:[39m
+[37;41m                                                                                                                                                        [39;49m
+[37;41m  SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`jeed`.`image`, CONSTRAI  [39;49m
+[37;41m  NT `FK_C53D045F514956FD` FOREIGN KEY (`collection_id`) REFERENCES `galery_collection` (`id`))                                                         [39;49m
+[37;41m                                                                                                                                                        [39;49m
+
+[33mIn PDOConnection.php line 53:[39m
+[37;41m                                                                                                                                                        [39;49m
+[37;41m  SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`jeed`.`image`, CONSTRAI  [39;49m
+[37;41m  NT `FK_C53D045F514956FD` FOREIGN KEY (`collection_id`) REFERENCES `galery_collection` (`id`))                                                         [39;49m
+[37;41m                                                                                                                                                        [39;49m
+
+[32mdoctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--purger PURGER] [--purge-exclusions PURGE-EXCLUSIONS] [--shard SHARD] [--purge-with-truncate][39m
+
+exit status 1
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;31m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hssym mfony console d:f:lm:mmake:migration[22Dserver:start          [10D[12Dconsole d:f:lm:mmake:migration[10D [9C[14Dd:d:c         [9Dc:dd[2C --force[?1l>[?2004l
+
+]2;symfony console d:d:d --force]1;symfony[32mDropped database [39m[33m`jeed`[39m[32m for connection named [39m[33mdefault[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hssymfony console d:d:d --force[11Df:l        [8Dm:mmake:migration[22Dserver:start          [10D[12Dconsole d:f:lm:mmake:migration[10D [9C[14Dd:d:c         [9Dc:dd:c[?1l>[?2004l
+
+]2;symfony console d:d:c]1;symfony[32mCreated database [39m[33m`jeed`[39m[32m for connection named [39m[33mdefault[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hssymfony console d:d:cd --force[11Df:l        [8Dm:mmake:migration[?1l>[?2004l
+
+]2;symfony console make:migration]1;symfony
+[30;43m                                                                                                                        [39;49m
+[30;43m [WARNING] You have 2 available migrations to execute.                                                                  [39;49m
+[30;43m                                                                                                                        [39;49m
+
+ [32mAre you sure you wish to continue? (yes/no)[39m [[33myes[39m]:
+ > y
+
+
+ [37;42m          [39;49m
+ [37;42m Success! [39;49m
+ [37;42m          [39;49m
+
+ Next: Review the new migration [32m"[39m[32mmigrations/Version20210713082458.php[39m[32m"[39m
+ Then: Run the migration with [32mphp bin/console doctrine:migrations:migrate[39m
+ See [33mhttps://symfony.com/doc/current/bundles/DoctrineMigrationsBundle/index.html[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hssymfony console make:migration[14Dd:d:c         [9Dd --force[11Df:l        [8Dm:m[?1l>[?2004l
+
+]2;symfony console d:m:m]1;symfony
+ [32mWARNING! You are about to execute a migration in database "jeed" that could result in schema changes and data loss. Are you sure you wish to continue? (yes/no)[39m [[33myes[39m]:
+ > y
+
+[32m[notice] Migrating [39m[33mup[39m[32m to [39m[33mDoctrineMigrations\Version20210713082458[39m
+[37;41m[error] Migration [39;49m[33mDoctrineMigrations\Version20210713082458[39m[37;41m failed during [39;49m[33mExecution[39m[37;41m. Error: "[39;49m[33mAn exception occurred while executing 'CREATE TABLE about (id INT AUTO_INCREMENT NOT NULL, avatar_id INT NOT NULL, description_fr LONGTEXT NOT NULL, description_en LONGTEXT NOT NULL, instagram VARCHAR(255) NOT NULL, linkedin VARCHAR(255) NOT NULL, UNIQUE INDEX UNIQ_B5F422E386383B10 (avatar_id), PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8mb4 COLLATE `utf8mb4_unicode_ci` ENGINE = InnoDB':
+
+SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'about' already exists[39m[37;41m"[39;49m
+
+[33mIn AbstractMySQLDriver.php line 57:[39m
+[37;41m                                                                                                                                                        [39;49m
+[37;41m  An exception occurred while executing 'CREATE TABLE about (id INT AUTO_INCREMENT NOT NULL, avatar_id INT NOT NULL, description_fr LONGTEXT NOT NULL,  [39;49m
+[37;41m   description_en LONGTEXT NOT NULL, instagram VARCHAR(255) NOT NULL, linkedin VARCHAR(255) NOT NULL, UNIQUE INDEX UNIQ_B5F422E386383B10 (avatar_id),   [39;49m
+[37;41m  PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8mb4 COLLATE `utf8mb4_unicode_ci` ENGINE = InnoDB':                                                         [39;49m
+[37;41m                                                                                                                                                        [39;49m
+[37;41m  SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'about' already exists                                                                 [39;49m
+[37;41m                                                                                                                                                        [39;49m
+
+[33mIn Exception.php line 18:[39m
+[37;41m                                                                                         [39;49m
+[37;41m  SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'about' already exists  [39;49m
+[37;41m                                                                                         [39;49m
+
+[33mIn PDOConnection.php line 132:[39m
+[37;41m                                                                                         [39;49m
+[37;41m  SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'about' already exists  [39;49m
+[37;41m                                                                                         [39;49m
+
+[32mdoctrine:migrations:migrate [--write-sql [WRITE-SQL]] [--dry-run] [--query-time] [--allow-no-migration] [--all-or-nothing [ALL-OR-NOTHING]] [--configuration CONFIGURATION] [--em EM] [--conn CONN] [--] [<version>][39m
+
+exit status 1
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;31m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hssymfony console d:m:mmake:migration[14Dd:d:c         [9Dmake:migration[?1l>[?2004l
+
+]2;symfony console make:migration]1;symfony
+[30;43m                                                                                                                        [39;49m
+[30;43m [WARNING] You have 2 previously executed migrations in the database that are not registered migrations.                [39;49m
+[30;43m                                                                                                                        [39;49m
+
+ [32mAre you sure you wish to continue? (yes/no)[39m [[33myes[39m]:
+ > y
+
+
+[30;43m                                                                                                                        [39;49m
+[30;43m [WARNING] No database changes were detected.                                                                           [39;49m
+[30;43m                                                                                                                        [39;49m
+
+ The database schema and the application mapping information are already in sync.
+ 
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hssymfony console make:migration[14Dd:m:m         [9D[?1l>[?2004l
+
+]2;symfony console d:m:m]1;symfony
+ [32mWARNING! You are about to execute a migration in database "jeed" that could result in schema changes and data loss. Are you sure you wish to continue? (yes/no)[39m [[33myes[39m]:
+ > y
+
+[37;41m                                                                                                                        [39;49m
+[37;41m [ERROR] The version "latest" couldn't be reached, there are no registered migrations.                                  [39;49m
+[37;41m                                                                                                                        [39;49m
+
+exit status 1
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;31m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hssymfony console d:m:mmake:migration[?1l>[?2004l
+
+]2;symfony console make:migration]1;symfony
+[30;43m                                                                                                                        [39;49m
+[30;43m [WARNING] You have 2 previously executed migrations in the database that are not registered migrations.                [39;49m
+[30;43m                                                                                                                        [39;49m
+
+ [32mAre you sure you wish to continue? (yes/no)[39m [[33myes[39m]:
+ > y
+
+
+[30;43m                                                                                                                        [39;49m
+[30;43m [WARNING] No database changes were detected.                                                                           [39;49m
+[30;43m                                                                                                                        [39;49m
+
+ The database schema and the application mapping information are already in sync.
+ 
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hssymfony console make:migration[14Dd:m:m         [9Dmake:migration[?1l>[?2004l
+
+]2;symfony console make:migration]1;symfony
+[30;43m                                                                                                                        [39;49m
+[30;43m [WARNING] You have 2 previously executed migrations in the database that are not registered migrations.                [39;49m
+[30;43m                                                                                                                        [39;49m
+
+ [32mAre you sure you wish to continue? (yes/no)[39m [[33myes[39m]:
+ > n
+
+[37;41m                                                                                                                        [39;49m
+[37;41m [ERROR] Migration cancelled!                                                                                           [39;49m
+[37;41m                                                                                                                        [39;49m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hssymfony console make:migration[14Dd:m:m         [9Dmake:migration[14Dd:m:m         [9Dmake:migration[14Dd:d:c         [9Dd --force[?1l>[?2004l
+
+]2;symfony console d:d:d --force]1;symfony[32mDropped database [39m[33m`jeed`[39m[32m for connection named [39m[33mdefault[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hssyl mfony console d:d:d --force[13Dmake:migration[14Dd:m:m         [9Dmake:migration[14Dd:m:m         [9Dmake:migration[14Dd:d:c         [9D[?1l>[?2004l
+
+]2;symfony console d:d:c]1;symfony[32mCreated database [39m[33m`jeed`[39m[32m for connection named [39m[33mdefault[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hssymfony console d:d:cd --force[13Dmake:migration[?1l>[?2004l
+
+]2;symfony console make:migration]1;symfony
+
+ [37;42m          [39;49m
+ [37;42m Success! [39;49m
+ [37;42m          [39;49m
+
+ Next: Review the new migration [32m"[39m[32mmigrations/Version20210713082744.php[39m[32m"[39m
+ Then: Run the migration with [32mphp bin/console doctrine:migrations:migrate[39m
+ See [33mhttps://symfony.com/doc/current/bundles/DoctrineMigrationsBundle/index.html[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hssymfony console make:migration[14Dd:d:c         [9Dd --force[13Dmake:migration[14Dd:m:m         [9D[?1l>[?2004l
+
+]2;symfony console d:m:m]1;symfony
+ [32mWARNING! You are about to execute a migration in database "jeed" that could result in schema changes and data loss. Are you sure you wish to continue? (yes/no)[39m [[33myes[39m]:
+ > y
+
+[32m[notice] Migrating [39m[33mup[39m[32m to [39m[33mDoctrineMigrations\Version20210713082744[39m
+[32m[notice] finished in [39m[33m3918.5[39m[32mms, used [39m[33m24M[39m[32m memory, [39m[33m1[39m[32m migrations executed, [39m[33m28[39m[32m sql queries[39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hssymfony console d:m:mmake:migration[14Dd:d:c         [9Dd --force[13Dmake:migration[14Dd:m:m         [9Dmake:migration[14Dd:m:m         [9Dmake:migration[14Dd:d:c         [9Dd --force[11Df:l        [8D[?1l>[?2004l
+
+]2;symfony console d:f:l]1;symfony
+ [32mCareful, database "jeed" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+   [33m>[39m [32mloading App\DataFixtures\AboutFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\NewsCategoryFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\PressFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\ProjectFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\TechFixtures[39m
+
+[33mIn DebugClassLoader.php line 349:[39m
+[37;41m                                                                                                                                                        [39;49m
+[37;41m  Warning: include(/home/pauline/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED/vendor/composer/../../src/Entity/Tech.php): f  [39;49m
+[37;41m  ailed to open stream: No such file or directory                                                                                                       [39;49m
+[37;41m                                                                                                                                                        [39;49m
+
+[32mdoctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--purger PURGER] [--purge-exclusions PURGE-EXCLUSIONS] [--shard SHARD] [--purge-with-truncate][39m
+
+exit status 1
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;31m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hssymfony console d:f:l[?1l>[?2004l
+
+]2;symfony console d:f:l]1;symfony
+ [32mCareful, database "jeed" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+   [33m>[39m [32mloading App\DataFixtures\AboutFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\NewsCategoryFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\PressFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\ProjectFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\UserFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\NewsFixtures[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hggit pull origin dev[?1l>[?2004l
+
+]2;git pull origin dev]1;gitremote: Enumerating objects: 54, done.[K
+remote: Counting objects:   1% (1/53)[K
+remote: Counting objects:   3% (2/53)[K
+remote: Counting objects:   5% (3/53)[K
+remote: Counting objects:   7% (4/53)[K
+remote: Counting objects:   9% (5/53)[K
+remote: Counting objects:  11% (6/53)[K
+remote: Counting objects:  13% (7/53)[K
+remote: Counting objects:  15% (8/53)[K
+remote: Counting objects:  16% (9/53)[K
+remote: Counting objects:  18% (10/53)[K
+remote: Counting objects:  20% (11/53)[K
+remote: Counting objects:  22% (12/53)[K
+remote: Counting objects:  24% (13/53)[K
+remote: Counting objects:  26% (14/53)[K
+remote: Counting objects:  28% (15/53)[K
+remote: Counting objects:  30% (16/53)[K
+remote: Counting objects:  32% (17/53)[K
+remote: Counting objects:  33% (18/53)[K
+remote: Counting objects:  35% (19/53)[K
+remote: Counting objects:  37% (20/53)[K
+remote: Counting objects:  39% (21/53)[K
+remote: Counting objects:  41% (22/53)[K
+remote: Counting objects:  43% (23/53)[K
+remote: Counting objects:  45% (24/53)[K
+remote: Counting objects:  47% (25/53)[K
+remote: Counting objects:  49% (26/53)[K
+remote: Counting objects:  50% (27/53)[K
+remote: Counting objects:  52% (28/53)[K
+remote: Counting objects:  54% (29/53)[K
+remote: Counting objects:  56% (30/53)[K
+remote: Counting objects:  58% (31/53)[K
+remote: Counting objects:  60% (32/53)[K
+remote: Counting objects:  62% (33/53)[K
+remote: Counting objects:  64% (34/53)[K
+remote: Counting objects:  66% (35/53)[K
+remote: Counting objects:  67% (36/53)[K
+remote: Counting objects:  69% (37/53)[K
+remote: Counting objects:  71% (38/53)[K
+remote: Counting objects:  73% (39/53)[K
+remote: Counting objects:  75% (40/53)[K
+remote: Counting objects:  77% (41/53)[K
+remote: Counting objects:  79% (42/53)[K
+remote: Counting objects:  81% (43/53)[K
+remote: Counting objects:  83% (44/53)[K
+remote: Counting objects:  84% (45/53)[K
+remote: Counting objects:  86% (46/53)[K
+remote: Counting objects:  88% (47/53)[K
+remote: Counting objects:  90% (48/53)[K
+remote: Counting objects:  92% (49/53)[K
+remote: Counting objects:  94% (50/53)[K
+remote: Counting objects:  96% (51/53)[K
+remote: Counting objects:  98% (52/53)[K
+remote: Counting objects: 100% (53/53)[K
+remote: Counting objects: 100% (53/53), done.[K
+remote: Compressing objects:   4% (1/22)[K
+remote: Compressing objects:   9% (2/22)[K
+remote: Compressing objects:  13% (3/22)[K
+remote: Compressing objects:  18% (4/22)[K
+remote: Compressing objects:  22% (5/22)[K
+remote: Compressing objects:  27% (6/22)[K
+remote: Compressing objects:  31% (7/22)[K
+remote: Compressing objects:  36% (8/22)[K
+remote: Compressing objects:  40% (9/22)[K
+remote: Compressing objects:  45% (10/22)[K
+remote: Compressing objects:  50% (11/22)[K
+remote: Compressing objects:  54% (12/22)[K
+remote: Compressing objects:  59% (13/22)[K
+remote: Compressing objects:  63% (14/22)[K
+remote: Compressing objects:  68% (15/22)[K
+remote: Compressing objects:  72% (16/22)[K
+remote: Compressing objects:  77% (17/22)[K
+remote: Compressing objects:  81% (18/22)[K
+remote: Compressing objects:  86% (19/22)[K
+remote: Compressing objects:  90% (20/22)[K
+remote: Compressing objects:  95% (21/22)[K
+remote: Compressing objects: 100% (22/22)[K
+remote: Compressing objects: 100% (22/22), done.[K
+Dépaquetage des objets:   2% (1/35)
+Dépaquetage des objets:   5% (2/35)
+Dépaquetage des objets:   8% (3/35)
+Dépaquetage des objets:  11% (4/35)
+Dépaquetage des objets:  14% (5/35)
+Dépaquetage des objets:  17% (6/35)
+Dépaquetage des objets:  20% (7/35)
+Dépaquetage des objets:  22% (8/35)
+Dépaquetage des objets:  25% (9/35)
+Dépaquetage des objets:  28% (10/35)
+Dépaquetage des objets:  31% (11/35)
+Dépaquetage des objets:  34% (12/35)
+Dépaquetage des objets:  37% (13/35)
+Dépaquetage des objets:  40% (14/35)
+Dépaquetage des objets:  42% (15/35)
+Dépaquetage des objets:  45% (16/35)
+Dépaquetage des objets:  48% (17/35)
+Dépaquetage des objets:  51% (18/35)
+Dépaquetage des objets:  54% (19/35)
+Dépaquetage des objets:  57% (20/35)
+Dépaquetage des objets:  60% (21/35)
+Dépaquetage des objets:  62% (22/35)
+Dépaquetage des objets:  65% (23/35)
+Dépaquetage des objets:  68% (24/35)
+Dépaquetage des objets:  71% (25/35)
+Dépaquetage des objets:  74% (26/35)
+Dépaquetage des objets:  77% (27/35)
+Dépaquetage des objets:  80% (28/35)
+Dépaquetage des objets:  82% (29/35)
+Dépaquetage des objets:  85% (30/35)
+Dépaquetage des objets:  88% (31/35)
+remote: Total 35 (delta 15), reused 31 (delta 12), pack-reused 0[K
+Dépaquetage des objets:  91% (32/35)
+Dépaquetage des objets:  94% (33/35)
+Dépaquetage des objets:  97% (34/35)
+Dépaquetage des objets: 100% (35/35)
+Dépaquetage des objets: 100% (35/35), 309.77 Kio | 2.92 Mio/s, fait.
+Depuis https://github.com/WildCodeSchool/remote-fr-March21-php-JEED
+ * branch            dev        -> FETCH_HEAD
+   009beb2..470c252  dev        -> origin/dev
+Fusion automatique de templates/front/home.html.twig
+Fusion automatique de templates/base.html.twig
+Fusion automatique de src/Security/LoginFormAuthenticator.php
+CONFLIT (contenu) : Conflit de fusion dans src/Security/LoginFormAuthenticator.php
+Fusion automatique de composer.lock
+La fusion automatique a échoué ; réglez les conflits et validez le résultat.
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;31m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hggit status[?1l>[?2004l
+
+]2;git status]1;gitSur la branche sprint_final_slug
+Votre branche est à jour avec 'origin/sprint_final_slug'.
+
+Vous avez des chemins non fusionnés.
+  (réglez les conflits puis lancez "git commit")
+  (utilisez "git merge --abort" pour annuler la fusion)
+
+Modifications qui seront validées :
+	[32mmodifié :         templates/base.html.twig[m
+	[32mmodifié :         templates/front/home.html.twig[m
+
+Chemins non fusionnés :
+  (utilisez "git add <fichier>..." pour marquer comme résolu)
+	[31mmodifié des deux côtés :  src/Security/LoginFormAuthenticator.php[m
+
+Modifications qui ne seront pas validées :
+  (utilisez "git add/rm <fichier>..." pour mettre à jour ce qui sera validé)
+  (utilisez "git restore <fichier>..." pour annuler les modifications dans le répertoire de travail)
+	[31mmodifié :         .env[m
+	[31mmodifié :         assets/styles/app.scss[m
+	[31mmodifié :         assets:install[m
+	[31mmodifié :         cache:clear[m
+	[31mmodifié :         src/Controller/Admin/ProjectCrudController.php[m
+	[31msupprimé :        src/Controller/Admin/TechCrudController.php[m
+	[31mmodifié :         src/Controller/FrontController.php[m
+	[31msupprimé :        src/DataFixtures/TechFixtures.php[m
+	[31mmodifié :         src/Entity/Galery.php[m
+	[31mmodifié :         src/Entity/GaleryCollection.php[m
+	[31mmodifié :         src/Entity/Project.php[m
+	[31msupprimé :        src/Entity/Tech.php[m
+	[31mmodifié :         src/Form/ProjectType.php[m
+	[31mmodifié :         templates/front/contact.html.twig[m
+	[31mmodifié :         templates/front/show_one_project.html.twig[m
+
+Fichiers non suivis:
+  (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
+	[31mtemplates/front/newEmail.html.twig[m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hggit add .[?1l>[?2004l
+
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hggit commit -m "mail" -n[?1l>[?2004l
+
+]2;git commit -m "mail" -n]1;git[sprint_final_slug e5c0dbb] mail
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m)[00m [K[?1h=[?2004hggit push[?1l>[?2004l
+
+]2;git push]1;gitÉnumération des objets: 81, fait.
+Décompte des objets:   1% (1/76)
+Décompte des objets:   2% (2/76)
+Décompte des objets:   3% (3/76)
+Décompte des objets:   5% (4/76)
+Décompte des objets:   6% (5/76)
+Décompte des objets:   7% (6/76)
+Décompte des objets:   9% (7/76)
+Décompte des objets:  10% (8/76)
+Décompte des objets:  11% (9/76)
+Décompte des objets:  13% (10/76)
+Décompte des objets:  14% (11/76)
+Décompte des objets:  15% (12/76)
+Décompte des objets:  17% (13/76)
+Décompte des objets:  18% (14/76)
+Décompte des objets:  19% (15/76)
+Décompte des objets:  21% (16/76)
+Décompte des objets:  22% (17/76)
+Décompte des objets:  23% (18/76)
+Décompte des objets:  25% (19/76)
+Décompte des objets:  26% (20/76)
+Décompte des objets:  27% (21/76)
+Décompte des objets:  28% (22/76)
+Décompte des objets:  30% (23/76)
+Décompte des objets:  31% (24/76)
+Décompte des objets:  32% (25/76)
+Décompte des objets:  34% (26/76)
+Décompte des objets:  35% (27/76)
+Décompte des objets:  36% (28/76)
+Décompte des objets:  38% (29/76)
+Décompte des objets:  39% (30/76)
+Décompte des objets:  40% (31/76)
+Décompte des objets:  42% (32/76)
+Décompte des objets:  43% (33/76)
+Décompte des objets:  44% (34/76)
+Décompte des objets:  46% (35/76)
+Décompte des objets:  47% (36/76)
+Décompte des objets:  48% (37/76)
+Décompte des objets:  50% (38/76)
+Décompte des objets:  51% (39/76)
+Décompte des objets:  52% (40/76)
+Décompte des objets:  53% (41/76)
+Décompte des objets:  55% (42/76)
+Décompte des objets:  56% (43/76)
+Décompte des objets:  57% (44/76)
+Décompte des objets:  59% (45/76)
+Décompte des objets:  60% (46/76)
+Décompte des objets:  61% (47/76)
+Décompte des objets:  63% (48/76)
+Décompte des objets:  64% (49/76)
+Décompte des objets:  65% (50/76)
+Décompte des objets:  67% (51/76)
+Décompte des objets:  68% (52/76)
+Décompte des objets:  69% (53/76)
+Décompte des objets:  71% (54/76)
+Décompte des objets:  72% (55/76)
+Décompte des objets:  73% (56/76)
+Décompte des objets:  75% (57/76)
+Décompte des objets:  76% (58/76)
+Décompte des objets:  77% (59/76)
+Décompte des objets:  78% (60/76)
+Décompte des objets:  80% (61/76)
+Décompte des objets:  81% (62/76)
+Décompte des objets:  82% (63/76)
+Décompte des objets:  84% (64/76)
+Décompte des objets:  85% (65/76)
+Décompte des objets:  86% (66/76)
+Décompte des objets:  88% (67/76)
+Décompte des objets:  89% (68/76)
+Décompte des objets:  90% (69/76)
+Décompte des objets:  92% (70/76)
+Décompte des objets:  93% (71/76)
+Décompte des objets:  94% (72/76)
+Décompte des objets:  96% (73/76)
+Décompte des objets:  97% (74/76)
+Décompte des objets:  98% (75/76)
+Décompte des objets: 100% (76/76)
+Décompte des objets: 100% (76/76), fait.
+Compression par delta en utilisant jusqu'à 4 fils d'exécution
+Compression des objets:   3% (1/29)
+Compression des objets:   6% (2/29)
+Compression des objets:  10% (3/29)
+Compression des objets:  13% (4/29)
+Compression des objets:  17% (5/29)
+Compression des objets:  20% (6/29)
+Compression des objets:  24% (7/29)
+Compression des objets:  27% (8/29)
+Compression des objets:  31% (9/29)
+Compression des objets:  34% (10/29)
+Compression des objets:  37% (11/29)
+Compression des objets:  41% (12/29)
+Compression des objets:  44% (13/29)
+Compression des objets:  48% (14/29)
+Compression des objets:  51% (15/29)
+Compression des objets:  55% (16/29)
+Compression des objets:  58% (17/29)
+Compression des objets:  62% (18/29)
+Compression des objets:  65% (19/29)
+Compression des objets:  68% (20/29)
+Compression des objets:  72% (21/29)
+Compression des objets:  75% (22/29)
+Compression des objets:  79% (23/29)
+Compression des objets:  82% (24/29)
+Compression des objets:  86% (25/29)
+Compression des objets:  89% (26/29)
+Compression des objets:  93% (27/29)
+Compression des objets:  96% (28/29)
+Compression des objets: 100% (29/29)
+Compression des objets: 100% (29/29), fait.
+Écriture des objets:   3% (1/29)
+Écriture des objets:   6% (2/29)
+Écriture des objets:  10% (3/29)
+Écriture des objets:  13% (4/29)
+Écriture des objets:  17% (5/29)
+Écriture des objets:  20% (6/29)
+Écriture des objets:  24% (7/29)
+Écriture des objets:  27% (8/29)
+Écriture des objets:  31% (9/29)
+Écriture des objets:  34% (10/29)
+Écriture des objets:  37% (11/29)
+Écriture des objets:  41% (12/29)
+Écriture des objets:  44% (13/29)
+Écriture des objets:  48% (14/29)
+Écriture des objets:  51% (15/29)
+Écriture des objets:  55% (16/29)
+Écriture des objets:  58% (17/29)
+Écriture des objets:  62% (18/29)
+Écriture des objets:  65% (19/29)
+Écriture des objets:  68% (20/29)
+Écriture des objets:  72% (21/29)
+Écriture des objets:  75% (22/29)
+Écriture des objets:  79% (23/29)
+Écriture des objets:  82% (24/29)
+Écriture des objets:  86% (25/29)
+Écriture des objets:  89% (26/29)
+Écriture des objets:  93% (27/29)
+Écriture des objets:  96% (28/29)
+Écriture des objets: 100% (29/29)
+Écriture des objets: 100% (29/29), 15.39 Kio | 2.20 Mio/s, fait.
+Total 29 (delta 20), réutilisés 0 (delta 0)
+remote: Resolving deltas:   0% (0/20)[K
+remote: Resolving deltas:   5% (1/20)[K
+remote: Resolving deltas:  10% (2/20)[K
+remote: Resolving deltas:  15% (3/20)[K
+remote: Resolving deltas:  20% (4/20)[K
+remote: Resolving deltas:  25% (5/20)[K
+remote: Resolving deltas:  30% (6/20)[K
+remote: Resolving deltas:  35% (7/20)[K
+remote: Resolving deltas:  40% (8/20)[K
+remote: Resolving deltas:  45% (9/20)[K
+remote: Resolving deltas:  50% (10/20)[K
+remote: Resolving deltas:  55% (11/20)[K
+remote: Resolving deltas:  60% (12/20)[K
+remote: Resolving deltas:  65% (13/20)[K
+remote: Resolving deltas:  70% (14/20)[K
+remote: Resolving deltas:  75% (15/20)[K
+remote: Resolving deltas:  80% (16/20)[K
+remote: Resolving deltas:  85% (17/20)[K
+remote: Resolving deltas:  90% (18/20)[K
+remote: Resolving deltas:  95% (19/20)[K
+remote: Resolving deltas: 100% (20/20)[K
+remote: Resolving deltas: 100% (20/20), completed with 20 local objects.[K
+To https://github.com/WildCodeSchool/remote-fr-March21-php-JEED.git
+   357615f..e5c0dbb  sprint_final_slug -> sprint_final_slug
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hggit status[?1l>[?2004l
+
+]2;git status]1;gitSur la branche sprint_final_slug
+Votre branche est à jour avec 'origin/sprint_final_slug'.
+
+Modifications qui ne seront pas validées :
+  (utilisez "git add <fichier>..." pour mettre à jour ce qui sera validé)
+  (utilisez "git restore <fichier>..." pour annuler les modifications dans le répertoire de travail)
+	[31mmodifié :         assets:install[m
+	[31mmodifié :         cache:clear[m
+
+aucune modification n'a été ajoutée à la validation (utilisez "git add" ou "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hggit add .[?1l>[?2004l
+
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hggit commit -m "mail css"[?1l>[?2004l
+
+]2;git commit -m "mail css"]1;git[33mGrumPHP detected a pre-commit command.[39m
+[33mGrumPHP is sniffing your code![39m
+
+[33mRunning tasks with priority 0![39m
+[33m==============================[39m
+
+Running task 1/3: phpcs... 
+Running task 2/3: phpstan... 
+Running task 3/3: phpmd... 
+[3A[0JRunning task 1/3: phpcs... 
+Running task 2/3: phpstan... 
+Running task 3/3: phpmd... 
+[3A[0JRunning task 1/3: phpcs... 
+Running task 2/3: phpstan... 
+Running task 3/3: phpmd... 
+[3A[0JRunning task 1/3: phpcs... 
+Running task 2/3: phpstan... 
+Running task 3/3: phpmd... 
+[33mGrumPHP detected a commit-msg command.[39m
+[33mGrumPHP is sniffing your code![39m
+[32m             ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+           ▄▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▌           
+         ▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▌
+        ▐▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▌
+        ▐▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▌        
+  ▄▐▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▌
+ ▐▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▌        
+ ▐█▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▌        
+   ▀█▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▌        
+     ▀▀▓▓▓▓▓▓▓▓▓▓▓▓█▀▀▀▀▀▀▀▀▀▀▀▀▀▀████████████▄
+      ▄████████▀▀▀▀▀                 ██████████   
+     ███████▀                         ██████▀
+      ▐████      ██▌          ██       ████▌      
+        ▐█▌                            ███        
+         █▌           ▄▄ ▄▄           ▐███        
+        ███       ▄▄▄▄▄▄▄▄▄▄▄▄       ▐███         
+         ██▄ ▐███████████████████████████
+        █▀█████████▌▀▀▀▀▀▀▀▀▀██████████▌▐         
+          ███████████▄▄▄▄▄▄▄███████████▌          
+         ▐█████████████████████████████           
+          █████████████████████████████           
+           ██ █████████████████████▐██▀           
+            ▀ ▐███████████████████▌ ▐▀            
+                ████▀████████▀▐███                
+                 ▀█▌  ▐█████  ▐█▌                 
+                        ██▀   ▐▀                  
+       _    _ _                         _ _
+      / \  | | |   __ _  ___   ___   __| | |
+     / _ \ | | |  / _` |/ _ \ / _ \ / _` | |
+    / ___ \| | | | (_| | (_) | (_) | (_| |_|
+   /_/   \_\_|_|  \__, |\___/ \___/ \__,_(_)
+                  |___/
+[39m
+[sprint_final_slug 12f187e] mail css
+ 2 files changed, 95 insertions(+), 2 deletions(-)
+[1m[7m%[27m[1m[0m                                                                                                                                                        
+ 
+]2;pauline@PGB:~/Documents/1-BOULOT/wild_code_school/PROJET 3/remote-fr-March21-php-JEED]1;..ch21-php-JEED
+[0m[27m[24m[J[01;32m➜  [36mremote-fr-March21-php-JEED[00m [01;34mgit:([31msprint_final_slug[34m) [33m✗[00m [K[?1h=[?2004hggit push[?1l>[?2004l
+
+]2;git push]1;gitÉnumération des objets: 7, fait.
+Décompte des objets:  14% (1/7)
+Décompte des objets:  28% (2/7)
+Décompte des objets:  42% (3/7)
+Décompte des objets:  57% (4/7)
+Décompte des objets:  71% (5/7)
+Décompte des objets:  85% (6/7)
+Décompte des ob

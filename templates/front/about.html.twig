@@ -1,0 +1,72 @@
+{% extends 'base.html.twig' %}
+{% block metadescription %}
+{% trans %}
+description page about en anglais / 
+    à traduire dans translations/messages+intl-icu.fr.xlf
+{% endtrans %}
+{% endblock %}
+{% block title %}{% trans %}About me{% endtrans %}{% endblock %}
+
+{% block body %}
+<div class="container d-flex justify-content-around">
+    <div class="box card m-3 border-white">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <img class="card-img-top" src="{{ asset('images/' ~ about.avatar) }}" alt="Jade Echard">
+                {# <img class="card-img-top" src="{{ vich_uploader_asset(about.avatar, 'imageFile') }}" alt="Jade Echard"> #}
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-8 d-flex align-items-center">
+                <div class="w-75 description ms-5">
+                        <div class="box-header">
+                            <h1 class="jade mt-3">Jade Echard</h1>
+                        </div>
+                        <div class="box-border py-1">
+                            {% if app.request.locale == 'fr' %}
+                                <p class="about_desc">{{ about.descriptionFr|raw }}</p>
+                            {% else %}
+                                <p class="about_desc">{{ about.descriptionEn|raw }}</p>
+                            {% endif %}
+                        </div>
+                        <div class="box-footer">
+                            <div class="d-flex justify-content-center mt-5 mb-3">
+                                <div class="d-grid gap-2 col-4 mx-auto">
+                                    <a class="jade1 btn btn-outline contact-btn" id="contact-btn" style="border-radius: 0; border-color: #0000FF;" href="{{ path('contact') }}" role="button">CONTACT</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box row row-col-4 m-0 p-0">
+        {% for categorie in aboutCategories %}
+            <div class="col-lg-4 d-flex justify-content-center">
+                <div class="card aboutcategory mt-5 border-white">
+                    <div class="card-header border-white" style="background-color:white">
+                        <h2 class="aboutcategoryname text-center">
+                            {% if app.request.locale == 'fr' %}
+                                {{ categorie.nameFr }}
+                            {% else %}
+                                {{ categorie.nameEn }}
+                            {% endif %}
+                        </h2>
+                    </div>
+                    <div class="card-body infocategorie">
+                        <ul class="info categorie px-0">
+                            {% for info in categorie.aboutInfos %}
+                                {% if app.request.locale == 'fr' %}
+                                    <li class="aboutinfo">{{ info.titleFr|raw }} | {{ info.timing }}</li>
+                                {% else %}
+                                    <li class="aboutinfo">{{ info.titleEn|raw }} | {{ info.timing }}</li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}

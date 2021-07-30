@@ -1,0 +1,121 @@
+{% extends 'base.html.twig' %}
+
+{% block metadescription %}
+{% if app.request.locale == 'fr' %}
+{{project.title}} - {{ project.subtitleFr }} : {{ project.descriptionFr }}
+{% else %}
+{{project.title}} - {{ project.subtitleEn }} : {{ project.descriptionEn }}
+{% endif %}
+{% endblock %}
+{% block title %}{{ project.title }}{% endblock %}
+
+{% block body %}
+
+<div class="small-screen">
+    <ul class="nav nav-projectCat">
+        {% if categories is defined %}
+            <li class="nav-item">
+                <a class="nav-under nav" aria-current="page" href="/">
+                    {% if app.request.requestUri == '/' %}
+                        <p style="font-weight: bold; color: #000000;">• tous</p>
+                    {% else %}
+                        <p>tous</p>
+                    {% endif %}
+                </a>
+            </li>
+            {% for category in categories %}
+                <li class="nav-item">
+                    <a class="nav-under nav" aria-current="page" href="{{ path('projects_by_cat', {categorySlug: category.slug}) }}">
+                        {% if app.request.requestUri == '/projects/' ~ category.slug or (project is defined and app.request.requestUri == '/project/' ~ project.slug and category == project.projectCategory) %}
+                            <p style="font-weight: bold; color: #000000;">• {{ project.projectCategory.nameFr is defined ? project.projectCategory.nameFr : category.nameFr}}</p>
+                        {% else %}
+                            <p>{{ category.nameFr }}</p>
+                        {% endif %}
+                    </a>
+                </li>
+            {% endfor %}
+        {% endif %}
+    </ul>
+</div>
+<div class="container ms-2">
+    <div class="card mb-3 mt-5" style="max-width: 100%; border: none;">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img class ="projectmainillustration" src="{{ asset('images/' ~ project.mainIllustration.imageLink) }}" alt="illustration {{ project.title }}">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <h1 class="projecttitle card-title text-uppercase">• {{ project.title }}</h1>
+                    <table class="soustitreprojet my-5 text-uppercase" width="100%">
+                        <tr>
+                            {% if app.request.locale == 'fr' %}
+                                <th>{{ project.subtitleFr }}</th>
+                            {% else %}
+                                <th>{{ project.subtitleEn }}</th>
+                            {% endif %}
+                            {% if project.projectDate is defined %}
+                                <th width="10px">{{ project.projectDate }}</th>
+                            {% endif %}
+                        </tr>
+                    </table>
+                    {% if app.request.locale == 'fr' %}
+                        <p class="card-text">{{ project.descriptionFr|raw }}</p>
+                    {% else %}
+                        <p class="card-text">{{ project.descriptionEn|raw }}</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="col-md-10">
+        {% if project.OtherPicto is not empty %}
+            <img class="picto" src="{{ asset('images/' ~ project.OtherPicto.imageLink) }}"  alt="picto {{ project.title }}">
+        {% endif %}
+            <img class="projectsecondillustration" src="{{ asset('images/' ~ project.secondIllustration.imageLink) }}" style="border: none;" class="card" alt="illustration {{ project.title }}">
+        </div>
+        <div class="logoscard col-md-2">
+            {% if project.exhibitionLogo is not empty %}
+                <a href="{{ project.moreInfoLink }}" target="_blank"><img class="logos" src="{{ asset('images/' ~ project.exhibitionLogo.imageLink) }}" class="card" alt="exhibition logo {{ project.title }}"></a>
+            {% endif %}
+            {% if project.otherLogo is not empty %}
+                <a href="{{ project.linkOtherLogo }}" target="_blank"><img class="logos" src="{{ asset('images/' ~ project.otherLogo.imageLink) }}" class="card" alt="logo expo {{ project.title }}"></a>
+            {% endif %}
+        </div>
+    </div>
+    {% if project.galery is not empty %}
+        <div>
+            {% if app.request.locale == 'fr' %}
+            <h1 class="part2projecttitle text-uppercase">• {{ project.galery.title }}</h4>
+            {% else %}
+            <h1 class="part2projecttitle text-uppercase">• {{ project.galery.titleEn }}</h4>
+            {% endif %}
+        </div>
+        <div>
+            {% if app.request.locale == 'fr' %}
+            <h4 class="galerysubtitle my-3 text-uppercase">{{ project.galery.subtitleFr }}</h4>
+            {% else %}
+            <h4 class="galerysubtitle my-3 text-uppercase">{{ project.galery.subtitleEn }}</h4>
+            {% endif %}
+        </div>
+        <div class="collection">
+            {% for collection in project.collections %}
+                {% if collection.title is not empty %}
+                    <img class="collectionpictures" src="{{ asset('images/' ~ collection.images[0]) }}" alt="{{ collection.title }} pictures">
+                    <h3 class="collectiontitle text-uppercase">• {{ collection.title }}</h3>
+                    {% if app.request.locale == 'fr' %}
+                        <p class="collectiondescription">{{ collection.descriptionFr|raw }}</p>
+                    {% else %}
+                        <p class="collectiondescription">{{ collection.descriptionEn|raw }}</p>
+                    {% endif %}
+                {% endif %}
+                <div class="pictures">
+                {% for image in collection.images %}
+                    <img class="collectionpictures" src="{{ asset('images/' ~ image.imageLink) }}" alt="{{ collection.title }} pictures">
+                {% endfor %}
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>
+{% endblock %}

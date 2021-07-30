@@ -1,0 +1,66 @@
+{% extends 'base.html.twig' %}
+
+{% block metadescription %}
+Jade Echard, {% trans %}Industrial Designer{% endtrans %}
+{% trans %}Based in{% endtrans %} Paris
+{% trans %}Studyied at{% endtrans %} Central Saint Martins - University
+{% trans %}Exposed at the{% endtrans %} Wanted Design Week
+{% endblock %}
+{% block title %}{% trans %}Home{% endtrans %}{% endblock %}
+
+{% block body %}
+    <div class="small-screen">
+        <ul class="nav nav-projectCat">
+			{% if categories is defined %}
+				<li class="nav-item">
+					<a class="nav-under nav" aria-current="page" href="/">
+						{% if app.request.locale == 'fr' %}
+							{% if app.request.requestUri == '/' %}
+								<p style="font-weight: bold; color: #0000ff;">tous</p>
+							{% else %}
+								<p>tous</p>
+							{% endif %}
+						{% else %}
+							{% if app.request.requestUri == '/' %}
+								<p style="font-weight: bold; color: #0000ff;">all</p>
+							{% else %}
+								<p>all</p>
+							{% endif %}
+						{% endif %}
+					</a>
+				</li>
+				{% for category in categories %}
+					<li class="nav-item">
+						<a class="nav-under nav" aria-current="page" href="{{ path('projects_by_cat', {categorySlug: category.slug}) }}">
+							{% if app.request.locale == 'fr' %}
+								{% if app.request.requestUri == '/projets/' ~ category.slug or (project is defined and app.request.requestUri == '/projet/' ~ project.slug and category == project.projectCategory) %}
+									<p style="font-weight: bold; color: #0000ff;">{{ project.projectCategory.nameFr is defined ? project.projectCategory.nameFr : category.nameFr }}</p>
+								{% else %}
+									<p>{{ category.nameFr }}</p>
+								{% endif %}
+							{% else %}
+								{% if app.request.requestUri == '/projects/' ~ category.slug or (project is defined and app.request.requestUri == '/project/' ~ project.slug and category == project.projectCategory) %}
+									<p style="font-weight: bold; color: #0000ff;">{{ project.projectCategory.nameEn is defined ? project.projectCategory.nameEn : category.nameEn }}</p>
+								{% else %}
+									<p>{{ category.nameEn }}</p>
+								{% endif %}
+							{% endif %}
+						</a>
+					</li>
+				{% endfor %}
+			{% endif %}
+		</ul>
+	</div>
+    <ul class="homelist mt-5">
+        {% for project in projects %}
+            <li>
+                <a class="text-reset text-decoration-none" href="{{ path("show_one_project", { slug: project.slug }) }}">
+                    <div class="projectcard px-5">
+                        <h3 class="titleproject text-uppercase">{{ project.title }}</h3>
+                        <img class ="img-fluid" src="{{ asset('images/' ~ project.mainIllustration) }}" alt="Jade Echard - {{ project.title }}">
+                    </div>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

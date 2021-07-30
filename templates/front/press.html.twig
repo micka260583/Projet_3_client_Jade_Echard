@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block metadescription %}
+{% trans %}
+description page press en anglais /
+    à traduire dans translations/messages+intl-icu.fr.xlf
+{% endtrans %}
+{% endblock %}
+{% block title %}{% trans %}Press{% endtrans %}{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="row row-col-3">
+            {% for pressArticle in press %}
+                <div class="col-lg-3 d-flex justify-content-center">
+                    <div class="card m-5" style="max-width: 18rem; border: none;">
+                        <img src="{{ asset('images/' ~ pressArticle.logoMedia.imageLink) }}" class="card-img-top" alt="media logo {{ pressArticle.title }}">
+                        <a href="{{ pressArticle.LinkPress }}" target="blank"><img src="{{ asset('images/' ~ pressArticle.illustration.imageLink) }}" class="card-img-top" alt="article press {{ pressArticle.title }}"></a>
+                        <div class="card-body">
+                            <p>{{ pressArticle.title }}</p>
+                            <p>{{ pressArticle.createdAt|date("m.d.Y") }}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

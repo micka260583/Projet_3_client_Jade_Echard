@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="WYkdCOH" resname="PROJECTS">
+        <source>PROJECTS</source>
+        <target>PROJETS</target>
+      </trans-unit>
+      <trans-unit id="XvXvA2S" resname="all">
+        <source>all</source>
+        <target>tous</target>
+      </trans-unit>
+      <trans-unit id="crcK4wM" resname="ABOUT">
+        <source>ABOUT</source>
+        <target>À PROPOS</target>
+      </trans-unit>
+      <trans-unit id="yh31iIZ" resname="PRESS">
+        <source>PRESS</source>
+        <target>PRESSE</target>
+      </trans-unit>
+      <trans-unit id="MXHM6Ld" resname="firstname">
+        <source>firstname</source>
+        <target>prénom</target>
+      </trans-unit>
+      <trans-unit id="f8VIPgL" resname="lastname">
+        <source>lastname</source>
+        <target>nom</target>
+      </trans-unit>
+      <trans-unit id="dRBRh7L" resname="subject">
+        <source>subject</source>
+        <target>sujet</target>
+      </trans-unit>
+      <trans-unit id="nWMiwfT" resname="Login">
+        <source>Login</source>
+        <target>Connexion</target>
+      </trans-unit>
+      <trans-unit id="OnhpU4i" resname="Home">
+        <source>Home</source>
+        <target>Accueil</target>
+      </trans-unit>
+      <trans-unit id="E1nsiDs" resname="About me">
+        <source>About me</source>
+        <target>À Propos</target>
+      </trans-unit>
+      <trans-unit id="588_9PF" resname="Password">
+        <source>Password</source>
+        <target>Mot de passe</target>
+      </trans-unit>
+      <trans-unit id="acVpEs4" resname="You are logged in as">
+        <source>You are logged in as</source>
+        <target>Vous êtes connecté•e en tant que</target>
+      </trans-unit>
+      <trans-unit id="0FJ_Sz1" resname="Logout">
+        <source>Logout</source>
+        <target>Se déconnecter</target>
+      </trans-unit>
+      <trans-unit id="ntEnPpt" resname="Press">
+        <source>Press</source>
+        <target>Presse</target>
+      </trans-unit>
+      <trans-unit id="IZe5kvO" resname="Industrial Designer">
+        <source>Industrial Designer</source>
+        <target>Designer Industriel</target>
+      </trans-unit>
+      <trans-unit id="M0EMAJB" resname="Based in">
+        <source>Based in</source>
+        <target>Basée à</target>
+      </trans-unit>
+      <trans-unit id="vJgzNdN" resname="Studyied at">
+        <source>Studyied at</source>
+        <target>A étudiée à</target>
+      </trans-unit>
+      <trans-unit id="95WGnAe" resname="Exposed at the">
+        <source>Exposed at the</source>
+        <target>Exposée à la</target>
+      </trans-unit>
+      <trans-unit id="mMUKzM8" resname="description page news en anglais / &#10;    à traduire dans translations/messages+intl-icu.fr.xlf">
+        <source>description page news en anglais / 
+    à traduire dans translations/messages+intl-icu.fr.xlf</source>
+        <target>__description page news en anglais / 
+    à traduire dans translations/messages+intl-icu.fr.xlf</target>
+      </trans-unit>
+      <trans-unit id="9cBx0ng" resname="description page contact en anglais / &#10;    à traduire dans translations/messages+intl-icu.fr.xlf">
+        <source>description page contact en anglais / 
+    à traduire dans translations/messages+intl-icu.fr.xlf</source>
+        <target>__description page contact en anglais / 
+    à traduire dans translations/messages+intl-icu.fr.xlf</target>
+      </trans-unit>
+      <trans-unit id="ZHqT5IS" resname="description page press en anglais / &#10;    à traduire dans translations/messages+intl-icu.fr.xlf">
+        <source>description page press en anglais / 
+    à traduire dans translations/messages+intl-icu.fr.xlf</source>
+        <target>__description page press en anglais / 
+    à traduire dans translations/messages+intl-icu.fr.xlf</target>
+      </trans-unit>
+      <trans-unit id="MFhrx7N" resname="description page about en anglais / &#10;    à traduire dans translations/messages+intl-icu.fr.xlf">
+        <source>description page about en anglais / 
+    à traduire dans translations/messages+intl-icu.fr.xlf</source>
+        <target>__description page about en anglais / 
+    à traduire dans translations/messages+intl-icu.fr.xlf</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
